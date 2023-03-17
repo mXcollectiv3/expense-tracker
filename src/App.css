@@ -65,11 +65,11 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: #01923d;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: #9e1101;
 }
 
 label {
@@ -89,7 +89,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #01a84c;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -98,6 +98,10 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
+}
+
+.btn:hover {
+  background: #007447;
 }
 
 .btn:focus,
@@ -127,12 +131,12 @@ input[type='number'] {
 }
 
 .list li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 5px solid #9e1101;
 }
 
 .delete-btn {
   cursor: pointer;
-  background-color: #e74c3c;
+  background-color: #9e1101;
   border: 0;
   color: #fff;
   font-size: 20px;
